@@ -40,7 +40,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.86078917980194092" green="0.0" blue="0.23570274868640451" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.52251976728439331" green="0.088010840117931366" blue="0.099467359483242035" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="startImage" destination="gKC-cB-M7c" id="Z7R-Oq-oYd"/>
