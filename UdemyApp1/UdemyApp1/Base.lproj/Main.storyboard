@@ -31,16 +31,19 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Xin Chao">
+                                <buttonConfiguration key="configuration" style="plain" title="Switch Up!">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="switchLanguages:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yzf-BS-6y1"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.86078917980194092" green="0.0" blue="0.23570274868640451" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
-                        <outlet property="greetings1" destination="tDX-tG-5nb" id="JYB-54-yxQ"/>
+                        <outlet property="startImage" destination="gKC-cB-M7c" id="Z7R-Oq-oYd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
